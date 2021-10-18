@@ -28,6 +28,7 @@ fs.readFile("./db/db.json", "utf-8", (err, data)=>{
 })
 })
 
+// Add notes
 app.post("/api/notes", (req, res)=> {
     req.body.id = Math.floor(Math.random() * 100);
     let addNote = req.body
@@ -40,8 +41,21 @@ app.post("/api/notes", (req, res)=> {
     res.status(200).json({added: true});
 })
 
+// Delete notes
 
+app.delete("/api/notes/:id", (req, res) => {
+    let id = parseInt(req.params.id);
+    console.log(id);
 
+    let savedNotes = JSON.parse(fs.readFileSync("./db/db.json"));
+    console.log(savedNotes);
+
+    const notes = savedNotes.filter((note) => note.id !== id);
+    console.log(notes);
+
+    fs.writeFileSync("./db/db.json", JSON.stringify(notes));
+    res.json();
+  });
 
 
 

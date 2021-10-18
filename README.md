@@ -17,8 +17,7 @@ No installation follow the link provided
 Type your information then click the save icon in the top left
 # Contributing
 No guidelines
-# Test
-NA
+
 # Questions
 If you have any questions or would like to contact me feel free to reach me at:
 - Email: nativeblanks@gmail.com
