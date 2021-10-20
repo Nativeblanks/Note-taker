@@ -15,7 +15,7 @@ This application allows you to save your notes and check back on them later. Not
 No installation follow the link provided
  https://dry-brushlands-61524.herokuapp.com/notes
 # Usage
-Type your information then click the save icon in the top left
+Type your information then click the save icon in the top right.
 # Contributing
 No guidelines
 
