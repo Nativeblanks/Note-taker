@@ -13,7 +13,7 @@ This application allows you to save your notes and check back on them later. Not
     
 # Installation
 No installation follow the link provided
-https://nativesnotetaker.herokuapp.com/
+ https://dry-brushlands-61524.herokuapp.com/notes
 # Usage
 Type your information then click the save icon in the top left
 # Contributing
